@@ -1,4 +1,4 @@
-package biz.sagal.lib;
+package biz.sagal.bitlib;
 
 import org.bitcoinj.core.Address;
 import org.bitcoinj.core.DumpedPrivateKey;

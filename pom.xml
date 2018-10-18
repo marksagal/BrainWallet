@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>biz.sagal.lib</groupId>
-    <artifactId>BrainWallet</artifactId>
+    <artifactId>BitLib</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
@@ -42,22 +42,11 @@
                 </configuration>
             </plugin>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <configuration>
-                    <archive>
-                        <manifest>
-                            <mainClass>biz.sagal.lib.BrainWallet</mainClass>
-                        </manifest>
-                    </archive>
-                </configuration>
-            </plugin>
-            <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>biz.sagal.lib.BrainWallet</mainClass>
+                            <mainClass>biz.sagal.bitlib.BrainWallet</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
